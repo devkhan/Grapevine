@@ -952,6 +952,12 @@ namespace Grapevine.Shared
 
         [ContentTypeMetadata(Value = "application/vnd.flographit", IsBinary = true)]
         GPH,
+        
+        [ContentTypeMetadata(Value = "application/x-protobuf", IsBinary = true)]
+        GPB,
+        
+        [ContentTypeMetadata(Value = "application/vnd.google.protobuf", IsBinary = true)]
+        GPBV,
 
         [ContentTypeMetadata(Value = "application/gpx+xml", IsText = true)]
         GPX,
